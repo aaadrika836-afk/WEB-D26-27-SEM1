@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Language attribute for screen reader accessibility -->
+<body>
+    <!-- Skip link positioned at the top for keyboard navigation -->
+    <a href="#main-content">Skip to main content</a>
+    
+    <nav aria-label="Main Navigation">
+        <a href="#home">Home</a> <a href="#help">Help</a>
+    </nav>
+    
+    <!-- Main landmark region -->
+    <main id="main-content">
+        <h1>Accessible Page</h1>
+        
+        <!-- Image providing alternative text -->
+        <img src="placeholder.png" alt="An accessible image placeholder">
+        <!-- Button providing an ARIA label for screen readers -->
+        <button aria-label="Close">X</button>
+        
+        <br><br>
+        
+        <!-- Form input properly associated with a visible label -->
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="search">
+    </main>
+</body>
+</html>
